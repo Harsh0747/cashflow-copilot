@@ -1,70 +1,65 @@
-# CashFlow Copilot MVP
+# CashFlow Copilot
 
-A runnable, explainable AI-fintech prototype for small businesses. It forecasts cash, prioritizes risky invoices, creates an action queue, and drafts payment reminders.
+An explainable AI cash-flow copilot for small businesses.
 
-## What is included
+CashFlow Copilot helps small-business owners understand upcoming cash pressure, identify invoices that may be paid late, prioritize collections work, and model simple revenue, expense, and payment-delay scenarios.
 
-- CSV upload for bank transactions and invoices
-- 30/60/90-day cash forecast
-- What-if controls for revenue, expenses, and payment delays
-- Explainable invoice-risk score and expected payment date
-- Prioritized collections queue
-- Payment-reminder drafts
-- Optional OpenAI-generated management briefing
-- Sample data, tests, Dockerfile, PRD, metrics, and launch plan
+## What it does
+
+- Upload bank transactions and invoice CSVs
+- Forecast cash position over 30, 60, or 90 days
+- Run revenue and expense what-if scenarios
+- Simulate customer payment delays
+- Score invoice payment risk with explainable factors
+- Estimate expected payment dates
+- Prioritize collections actions
+- Draft editable payment reminders
+- Export forecasts as CSV
+- Generate an optional AI management briefing
+- Run with a deterministic fallback when no AI API key is configured
+- Validate input data and surface financial-safety disclaimers
+
+## Product approach
+
+The MVP deliberately separates financial computation from generative AI.
+
+**Deterministic code handles:**
+
+- Cash balances
+- Forecast calculations
+- Scenario modelling
+- Invoice-risk scoring
+- Expected payment-date estimation
+- Collections prioritization
+- Data-quality checks
+
+**The LLM is used for:**
+
+- Explaining financial results
+- Producing a management briefing
+- Drafting payment-reminder language
+
+This keeps the core financial logic reproducible and reviewable rather than relying on an LLM for arithmetic or financial decisions.
+
+## Demo
+
+The application includes sample business data, so it can be run immediately without connecting a bank account or uploading private financial information.
+
+The demo includes:
+
+- Transaction history
+- Paid invoices
+- Open invoices
+- Overdue invoices
+- Future receivables
 
 ## Run locally
 
+### macOS / Linux
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`.
-
-## Optional AI briefing
-
-The core product works without an LLM. To enable the generated management briefing:
-
-```bash
-cp .env.example .env
-export OPENAI_API_KEY="your-key"
-export OPENAI_MODEL="gpt-5.6"
-streamlit run app.py
-```
-
-The prototype sends only aggregated forecast metrics to the model—not raw transaction descriptions.
-
-## CSV formats
-
-### Transactions
-
-Required columns:
-
-```text
-date,description,amount,category
-```
-
-Positive amounts are inflows; negative amounts are outflows. `account` is optional.
-
-### Invoices
-
-Required columns:
-
-```text
-invoice_id,customer,issue_date,due_date,amount,status,paid_date
-```
-
-Use `paid`, `open`, or `overdue` for status. Leave `paid_date` empty for unpaid invoices.
-
-## Test
-
-```bash
-pytest -q
-```
-
-## Product boundary
-
-This MVP is an operational planning tool. It does not move money, approve loans, provide tax advice, or make autonomous customer decisions. Forecasts and risk scores should be reviewed by a person.
+python -m streamlit run app.py
