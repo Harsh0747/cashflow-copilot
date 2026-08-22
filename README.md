@@ -1,5 +1,6 @@
 # CashFlow Copilot
 
+
 An explainable AI cash-flow copilot for small businesses.
 
 CashFlow Copilot helps small-business owners understand upcoming cash pressure, identify invoices that may be paid late, prioritize collections work, and model simple revenue, expense, and payment-delay scenarios.
