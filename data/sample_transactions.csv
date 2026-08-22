@@ -1,0 +1,124 @@
+date,description,amount,category,account
+2026-03-22,Opening balance,700000.0,Opening balance,Operating
+2026-03-23,Daily operating costs,-2516.64,Operations,Operating
+2026-03-24,Daily operating costs,-3292.1,Operations,Operating
+2026-03-25,Client payment,63854.25,Sales,Operating
+2026-03-25,Daily operating costs,-3483.42,Operations,Operating
+2026-03-26,Daily operating costs,-1584.34,Operations,Operating
+2026-03-27,Daily operating costs,-2312.39,Operations,Operating
+2026-03-30,Daily operating costs,-3131.6,Operations,Operating
+2026-03-31,Daily operating costs,-2530.24,Operations,Operating
+2026-04-01,Client payment,44065.48,Sales,Operating
+2026-04-01,Daily operating costs,-1391.45,Operations,Operating
+2026-04-01,Office rent,-45000.0,Rent,Operating
+2026-04-02,Daily operating costs,-3094.99,Operations,Operating
+2026-04-03,Daily operating costs,-2263.58,Operations,Operating
+2026-04-05,Payroll,-185000.0,Payroll,Operating
+2026-04-06,Daily operating costs,-3879.36,Operations,Operating
+2026-04-07,Daily operating costs,-1783.92,Operations,Operating
+2026-04-08,Daily operating costs,-1331.41,Operations,Operating
+2026-04-09,Client payment,50103.3,Sales,Operating
+2026-04-09,Daily operating costs,-3434.29,Operations,Operating
+2026-04-10,Daily operating costs,-2177.48,Operations,Operating
+2026-04-12,Software subscriptions,-18000.0,Software,Card
+2026-04-13,Daily operating costs,-2608.67,Operations,Operating
+2026-04-14,Client payment,24106.31,Sales,Operating
+2026-04-14,Daily operating costs,-2627.11,Operations,Operating
+2026-04-15,Client payment,49481.26,Sales,Operating
+2026-04-15,Daily operating costs,-2511.46,Operations,Operating
+2026-04-16,Daily operating costs,-3300.8,Operations,Operating
+2026-04-17,Daily operating costs,-3696.78,Operations,Operating
+2026-04-18,GST reserve,-30000.0,Tax reserve,Operating
+2026-04-20,Daily operating costs,-2362.44,Operations,Operating
+2026-04-21,Daily operating costs,-3247.49,Operations,Operating
+2026-04-22,Client payment,27395.69,Sales,Operating
+2026-04-22,Daily operating costs,-1222.09,Operations,Operating
+2026-04-23,Daily operating costs,-3194.55,Operations,Operating
+2026-04-24,Daily operating costs,-3542.19,Operations,Operating
+2026-04-27,Daily operating costs,-2906.22,Operations,Operating
+2026-04-28,Client payment,23382.91,Sales,Operating
+2026-04-28,Daily operating costs,-3205.21,Operations,Operating
+2026-04-29,Daily operating costs,-2895.71,Operations,Operating
+2026-04-30,Daily operating costs,-3104.15,Operations,Operating
+2026-05-01,Daily operating costs,-2877.62,Operations,Operating
+2026-05-01,Office rent,-45000.0,Rent,Operating
+2026-05-04,Daily operating costs,-1292.45,Operations,Operating
+2026-05-05,Payroll,-185000.0,Payroll,Operating
+2026-05-05,Daily operating costs,-1843.75,Operations,Operating
+2026-05-06,Daily operating costs,-3760.21,Operations,Operating
+2026-05-07,Client payment,20740.23,Sales,Operating
+2026-05-07,Daily operating costs,-2044.15,Operations,Operating
+2026-05-08,Daily operating costs,-3185.75,Operations,Operating
+2026-05-11,Daily operating costs,-3551.69,Operations,Operating
+2026-05-12,Daily operating costs,-2419.16,Operations,Operating
+2026-05-12,Software subscriptions,-18000.0,Software,Card
+2026-05-13,Daily operating costs,-1700.92,Operations,Operating
+2026-05-14,Client payment,22232.25,Sales,Operating
+2026-05-14,Daily operating costs,-3367.08,Operations,Operating
+2026-05-15,Daily operating costs,-1683.82,Operations,Operating
+2026-05-18,Daily operating costs,-1656.94,Operations,Operating
+2026-05-18,GST reserve,-30000.0,Tax reserve,Operating
+2026-05-19,Daily operating costs,-2538.47,Operations,Operating
+2026-05-20,Daily operating costs,-2104.54,Operations,Operating
+2026-05-21,Daily operating costs,-2285.44,Operations,Operating
+2026-05-22,Client payment,23546.28,Sales,Operating
+2026-05-22,Daily operating costs,-4085.69,Operations,Operating
+2026-05-25,Daily operating costs,-3299.12,Operations,Operating
+2026-05-26,Daily operating costs,-4107.53,Operations,Operating
+2026-05-27,Daily operating costs,-3350.67,Operations,Operating
+2026-05-28,Daily operating costs,-2016.72,Operations,Operating
+2026-05-29,Client payment,60422.31,Sales,Operating
+2026-05-29,Daily operating costs,-2567.33,Operations,Operating
+2026-06-01,Client payment,32379.96,Sales,Operating
+2026-06-01,Daily operating costs,-2937.66,Operations,Operating
+2026-06-01,Office rent,-45000.0,Rent,Operating
+2026-06-02,Client payment,58260.87,Sales,Operating
+2026-06-02,Daily operating costs,-3475.56,Operations,Operating
+2026-06-03,Daily operating costs,-2496.28,Operations,Operating
+2026-06-04,Daily operating costs,-2952.29,Operations,Operating
+2026-06-05,Daily operating costs,-1453.33,Operations,Operating
+2026-06-05,Payroll,-185000.0,Payroll,Operating
+2026-06-08,Daily operating costs,-1324.84,Operations,Operating
+2026-06-09,Daily operating costs,-2189.58,Operations,Operating
+2026-06-10,Client payment,22859.94,Sales,Operating
+2026-06-10,Daily operating costs,-2962.93,Operations,Operating
+2026-06-11,Client payment,61480.65,Sales,Operating
+2026-06-11,Daily operating costs,-2943.18,Operations,Operating
+2026-06-12,Daily operating costs,-2972.75,Operations,Operating
+2026-06-12,Software subscriptions,-18000.0,Software,Card
+2026-06-15,Client payment,63052.28,Sales,Operating
+2026-06-15,Daily operating costs,-2646.91,Operations,Operating
+2026-06-16,Daily operating costs,-1448.19,Operations,Operating
+2026-06-17,Daily operating costs,-2672.12,Operations,Operating
+2026-06-18,GST reserve,-30000.0,Tax reserve,Operating
+2026-06-18,Daily operating costs,-2915.18,Operations,Operating
+2026-06-19,Daily operating costs,-2000.93,Operations,Operating
+2026-06-22,Daily operating costs,-2762.02,Operations,Operating
+2026-06-23,Daily operating costs,-1264.84,Operations,Operating
+2026-06-24,Daily operating costs,-3888.48,Operations,Operating
+2026-06-25,Client payment,44039.7,Sales,Operating
+2026-06-25,Daily operating costs,-1525.73,Operations,Operating
+2026-06-26,Daily operating costs,-2043.7,Operations,Operating
+2026-06-29,Daily operating costs,-3380.98,Operations,Operating
+2026-06-30,Daily operating costs,-1523.22,Operations,Operating
+2026-07-01,Daily operating costs,-1890.64,Operations,Operating
+2026-07-01,Office rent,-45000.0,Rent,Operating
+2026-07-02,Client payment,44078.07,Sales,Operating
+2026-07-02,Daily operating costs,-2312.77,Operations,Operating
+2026-07-03,Daily operating costs,-3624.75,Operations,Operating
+2026-07-05,Payroll,-185000.0,Payroll,Operating
+2026-07-06,Daily operating costs,-4058.7,Operations,Operating
+2026-07-07,Daily operating costs,-2745.17,Operations,Operating
+2026-07-08,Daily operating costs,-4008.13,Operations,Operating
+2026-07-09,Client payment,20110.8,Sales,Operating
+2026-07-09,Daily operating costs,-2505.29,Operations,Operating
+2026-07-10,Daily operating costs,-3875.03,Operations,Operating
+2026-07-12,Software subscriptions,-18000.0,Software,Card
+2026-07-13,Daily operating costs,-3872.38,Operations,Operating
+2026-07-14,Daily operating costs,-2756.58,Operations,Operating
+2026-07-15,Daily operating costs,-3516.04,Operations,Operating
+2026-07-16,Daily operating costs,-2320.97,Operations,Operating
+2026-07-17,Client payment,53099.11,Sales,Operating
+2026-07-17,Daily operating costs,-1987.38,Operations,Operating
+2026-07-18,GST reserve,-30000.0,Tax reserve,Operating
+2026-07-20,Daily operating costs,-1922.91,Operations,Operating

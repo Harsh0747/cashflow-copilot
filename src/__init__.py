@@ -1,0 +1,1 @@
+"""CashFlow Copilot core package."""
